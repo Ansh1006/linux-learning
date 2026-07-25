@@ -2,9 +2,9 @@ Last time we did fundamentals of command line and moving around in linux. Now we
 
 ## touch
 It makes a file of whatever name you keep after `touch`.
-*In linux what we use as extension like .mp4 or .exe doesn't matter cause the name might be video.mp4 while the file is actually a picture so we need to check what the file actually is.
+- In linux what we use as extension like .mp4 or .exe doesn't matter cause the name might be video.mp4 while the file is actually a picture so we need to check what the file actually is.
 
-# We can use `file` command to know the actual type of the file we are dealing with.
+#### We can use `file` command to know the actual type of the file we are dealing with.
 
 ## cat 
 This command has many good uses especially if you're just starting and don't know many other command in linux.
@@ -14,13 +14,13 @@ It lets us make the file and then write something in it too unlike the `touch` c
 
 Example: cat > file1.txt
 
-This will make the file if not there with the name of file1.txt and then we can write in it too.
+### This will make the file if not there with the name of file1.txt and then we can write in it too.
 
 ## cp
 This is the copy command. Basically lets us copy the files that we want.
 We can use it's options to help in making mass-copying easy too.
 
-#Wildcards:
+### Wildcards:
 *
 []
 ? 
@@ -57,7 +57,7 @@ It can also change the name of the file if we want to while moving to a differen
 Example: file1/Documents file2/Documents 
 
 This renames the file from file1 to file2 while keeping the directory same.
-# mv also has the same type of options like cp
+#### mv also has the same type of options like cp
 
 
 ## mkdir
@@ -71,13 +71,13 @@ This will create a directory `how` in your current location. This `how` director
 This command is used to remove the files and  directories.
 Until some special command or option type of `rmdir` is used, it only removes empty directories.
 
-# Options:
+### Options:
 - `-f `
 - `-rf`
 - `-i `
 - `-r `
 
-# Usage:
+### Usage:
 1.) -f is for forceful file deletion.
 
 2.) -rf is for forceful folder deletion
