@@ -4,7 +4,7 @@ Last time we did fundamentals of command line and moving around in linux. Now we
 It makes a file of whatever name you keep after `touch`.
 *In linux what we use as extension like .mp4 or .exe doesn't matter cause the name might be video.mp4 while the file is actually a picture so we need to check what the file actually is.
 
-#We can use `file` command to know the actual type of the file we are dealing with.
+# We can use `file` command to know the actual type of the file we are dealing with.
 
 ## cat 
 This command has many good uses especially if you're just starting and don't know many other command in linux.
@@ -24,7 +24,7 @@ We can use it's options to help in making mass-copying easy too.
 *
 []
 ? 
-#Usage:
+# Usage:
 1.) The star allows to copy all files of a certain type.
 Example: `cp *.jpg` copies all .jpg files present in the directory.
 
@@ -40,7 +40,7 @@ Example: `cp ?r` finds all files with "r" present in it's name.
 - `-p`
 - `-v`
 
-#Usage:
+# Usage:
 1.) Copies entire directories with the sub-folders and files intact.
 
 2.) Prompts for confirmation before overwriting a already existing file.
@@ -67,17 +67,17 @@ This command lets us make directories.
 Example: /how/are/you
 This will create a directory `how` in your current location. This `how` directory will contain directory `are` which in turn contains the `you` directory.
 
-##rm
+## rm
 This command is used to remove the files and  directories.
 Until some special command or option type of `rmdir` is used, it only removes empty directories.
 
-#Options:
+# Options:
 - `-f `
 - `-rf`
 - `-i `
 - `-r `
 
-#Usage:
+# Usage:
 1.) -f is for forceful file deletion.
 
 2.) -rf is for forceful folder deletion
