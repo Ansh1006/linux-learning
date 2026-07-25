@@ -1,7 +1,7 @@
-#The Command line:
+# The Command line:
 It's the most thing for a professional relying on linux. It lets us communicate to the computer system in a more efficient way.
 
-*Opening the command line from keyboard: ctrl+alt+t
+#### Opening the command line from keyboard: ctrl+alt+t
 
 #Linux Command line basics:
 
@@ -15,7 +15,7 @@ lists files and directories of the directory you are currently present in until 
 
 Example: if we are present in user, it prints all the things presnt in user directory.
 
-#Some useful options:
+### Some useful options:
 `ls -l`
 `ls -a`
 `ls -r`
@@ -24,14 +24,14 @@ Example: if we are present in user, it prints all the things presnt in user dire
 "-a" displays the hidden files and directories too.
 "-r" displays everything in reverse alphabetical order i.e z-a.
 
-*We can combine these options too, like, ls -la displays all files and directories be it hidden or no in long format.
+#### We can combine these options too, like, ls -la displays all files and directories be it hidden or no in long format.
 
 ## cd
 Allows us to change the directory using either absolute or relative path.
 
 Example: using, `cd /home/user/Documents` while being in root directory will take you to Documents.
 
-*Some essential navigation shortcuts:
+#### Some essential navigation shortcuts:
 `cd. `
 `cd..`
 `cd~ `
