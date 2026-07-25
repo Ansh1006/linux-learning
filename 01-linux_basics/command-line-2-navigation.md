@@ -21,9 +21,9 @@ This is the copy command. Basically lets us copy the files that we want.
 We can use it's options to help in making mass-copying easy too.
 
 ### Wildcards:
-*
-[]
-? 
+- *
+- [ ]
+- ? 
 # Usage:
 1.) The star allows to copy all files of a certain type.
 Example: `cp *.jpg` copies all .jpg files present in the directory.
