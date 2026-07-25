@@ -35,10 +35,10 @@ Example: `cp [rp]` copies all files with a "r" or a "p"  present in it.
 Example: `cp ?r` finds all files with "r" present in it's name.
 
 #Options:
--r
--i
--p
--v
+- `-r`
+- `-i`
+- `-p`
+- `-v`
 
 #Usage:
 1.) Copies entire directories with the sub-folders and files intact.
@@ -72,10 +72,10 @@ This command is used to remove the files and  directories.
 Until some special command or option type of `rmdir` is used, it only removes empty directories.
 
 #Options:
-`-f `
-`-rf`
-`-i `
-`-r `
+- `-f `
+- `-rf`
+- `-i `
+- `-r `
 
 #Usage:
 1.) -f is for forceful file deletion.
